@@ -5,3 +5,6 @@ There are convenience factory methods for [Lists, Sets and Maps](java11/src/main
 * They do not [allow null values, and the created collections are immutable](java11/src/test/java/ch/mhaspra/java11/collections/ConvenienceFactoryMethodsTest.java).
 * For up to 10 elements there are explicit methods and for more there is a vararg method which is slightly less performant because of varargs implicit array creation.
 * The instances are value based, that means that the factory method is free to return the exact same instance for the same call.
+
+### Stream API Improvements
+There are 4 new methods for the stream api [takeWhile, dropWhile, iterate with predicate and ofNullable](java11/src/main/java/ch/mhaspra/java11/streams/StreamApiImprovements.java).
