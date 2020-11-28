@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-public class HelperMethods {
+public class ConvenienceFactoryMethods {
   public static void main(String[] args) {
     List<String> list = List.of("one", "two", "three");
     Set<String> set = Set.of("A", "B", "C");
