@@ -8,3 +8,6 @@ There are convenience factory methods for [Lists, Sets and Maps](java11/src/main
 
 ### Stream API Improvements
 There are 4 new methods for the stream api [takeWhile, dropWhile, iterate with predicate and ofNullable](java11/src/main/java/ch/mhaspra/java11/streams/StreamApiImprovements.java).
+
+### Optional
+There are 4 new methods for the Optional class [ifPresentOrElse, or, stream](java11/src/main/java/ch/mhaspra/java11/optionals/Optionals.java) and [orElseThrow](java11/src/test/java/ch/mhaspra/java11/optionals/OptionalsTest.java).
